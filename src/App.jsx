@@ -7,7 +7,7 @@ function App() {
     <div className="app-container">
       <div className="content">
         <div className="logo-container">
-          <img src="./assets/logo.png" alt="Logo" className="logo" />
+          <img src="/assets/logo.png" alt="Logo" className="logo" />
         </div>
         <div className="button-container">
           <a href="mailto:info@dynavationelectronics.com" onclick="window.location=another.html" className="btn btn-primary">Email</a>
