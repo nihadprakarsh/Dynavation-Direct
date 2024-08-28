@@ -41,12 +41,12 @@
   }
 
   .logo {
-    width: 100px; /* Smaller logo on mobile */
+    width: 250px; /* Smaller logo on mobile */
   }
 
   .button-container {
     flex-direction: column; /* Stack buttons vertically on mobile */
-    gap: 10px; /* Reduce gap between buttons */
+    gap: 13px; /* Reduce gap between buttons */
   }
 
   .btn {
