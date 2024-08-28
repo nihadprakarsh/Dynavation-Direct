@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('/path/to/your/background.jpg');
+  background-image: url('/assets/background.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -31,4 +31,26 @@
   padding: 10px 20px;
   font-size: 1.2rem;
   border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 20px;
+  }
+
+  .logo {
+    width: 100px; /* Smaller logo on mobile */
+  }
+
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on mobile */
+    gap: 10px; /* Reduce gap between buttons */
+  }
+
+  .btn {
+    width: 100%; /* Make buttons full-width on mobile */
+    font-size: 1rem; /* Adjust button text size */
+  }
 }
